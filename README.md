@@ -1,57 +1,117 @@
 <a name="readme-top"></a>
+<div align="center">
+  <br/>
 
-  <h3><b>Rails React Two Apps</b></h3>
+  <h1><b>Hello Rails Back-End</b></h1>
+</div>
+<a name="readme-top"></a>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello Rails Back-end ](#-hello-rails-back-end-)
+  - [🛠 Built With ](#-built-with-)
+  - [🛠 Tech Stack ](#-tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors](#-authors)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-- [📖 About the Project](#about-project)
-  - [🛠 Link to the Frontend](#front-end)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
+<!-- PROJECT DESCRIPTION -->
 
+# 📖 Hello Rails Backend <a name="about-project"></a>
 
-**[Rails-React-OneApp]** is a web application that allows users to fetch a random greeting from Rails API. It's built using Rails, React, Redux.
-
-## 🛠 Link to the Frontend <a name="front-end"></a>
-
-- [Link](https://github.com/ritikarawat220/Hello-React-Frontend/pull/1)
+Hello Rails Back-end is an tutorial for creating a Rails API with React Front-end. This project is a part of the Microverse curriculum. The goal is to create a Rails API and React Front-end that will display a random greeting from the database.
 
 ## 🛠 Built With <a name="built-with"></a>
-
+This app is build with Ruby on Rails and Postgresql.
 ### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#">Ruby on rails</a></li>
-
+> <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+> <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+> <li><a href="https://www.postgresql.org/">Postgresql</a></li>
 
 ### Key Features <a name="key-features"></a>
 
-- **[API Endpoint]**
+> - User can create a See a random Greeting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+## To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Mac or PC
+- Install Ruby
+- Install Rails
+- Install Postgresql
+- Understanding of Ruby
+
+### Frontend
+
+Here is the [Front-End](https://github.com/ritikarawat220/Hello-React-Frontend/pull/1) of this app.
+
+### Setup
+
+- Clone this repository to your desired folder:
+
+```sh
+ git clone https://github.com/ritikarawat220/Hello-Rails-Backend.git
+```
+
+- Navigate into the cloned folder
+
+```sh
+ cd hello-rails-back-end
+```
+### Install
+
+- Install this project with:
+
+```sh
+ bundle install
+ yarn install
+```
+
+- Set up the database
+  Change the username and password of your postgres account in `config/database.yml`
+
+```sh
+ rails db:create db:migrate db:seed
+```
+
+- Start the server
+
+```sh
+ rails server
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Ruby version >= 3.0.0
-Clone this repository to your desired folder:
-sh
-cd my-folder
-git clone https://github.com/ritikarawat220/Hello-Rails-Backend.git
+<!-- AUTHORS -->
+## 👥 Authors <a name="authors"></a>
 
-### Install:
+👤 **Ritika Rawat**
 
-Run: bundle install
-
-### Start:
-1. Run: npm run build
-Run: rspec
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **[Multiple Greetings API endpoint]**
+- GitHub: [ritikarawat220](https://github.com/ritikarawat220)
+- Twitter: [@ritikarawat22](https://twitter.com/Ritikarawat22)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rawatritika/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -61,20 +121,22 @@ Feel free to check the [issues page](https://github.com/ritikarawat220/Hello-Rai
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, give it a star please!
+If you like this project, please leave a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
- <ul>
-    <li><a href="https://www.microverse.org/">Microverse</a></li>
-  </ul>
+- I would like to thank Microverse for providing us with reading materials that aided us to during the project development
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
