@@ -1,24 +1,83 @@
-# README
+<a name="readme-top"></a>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  <h3><b>Rails React Two Apps</b></h3>
 
-Things you may want to cover:
+# 📗 Table of Contents
 
-* Ruby version
+- [📖 About the Project](#about-project)
+  - [🛠 Link to the Frontend](#front-end)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+	@@ -25,17 +26,15 @@
 
-* System dependencies
+**[Rails-React-OneApp]** is a web application that allows users to fetch a random greeting from Rails API. It's built using Rails, React, Redux.
 
-* Configuration
+## 🛠 Link to the Frontend <a name="front-end"></a>
 
-* Database creation
+- [Link]()
 
-* Database initialization
+## 🛠 Built With <a name="built-with"></a>
 
-* How to run the test suite
+### Tech Stack <a name="tech-stack"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">Ruby on rails</a></li>
 
-* Deployment instructions
 
-* ...
+### Key Features <a name="key-features"></a>
+
+- **[API Endpoint]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+Ruby version >= 3.0.0
+Clone this repository to your desired folder:
+sh
+cd my-folder
+git clone https://github.com/ritikarawat220/Hello-Rails-Backend.git
+
+### Install:
+
+Run: bundle install
+
+### Start:
+1. Run: npm run build
+Run: rspec
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **[Multiple Greetings API endpoint]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ritikarawat220/Hello-Rails-Backend/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, give it a star please!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+ <ul>
+    <li><a href="https://www.microverse.org/">Microverse</a></li>
+  </ul>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
