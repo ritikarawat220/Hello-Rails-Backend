@@ -9,7 +9,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-	@@ -25,17 +26,15 @@
+
 
 **[Rails-React-OneApp]** is a web application that allows users to fetch a random greeting from Rails API. It's built using Rails, React, Redux.
 
